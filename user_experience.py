@@ -17,7 +17,7 @@ def choose_difficulty():
     #------------------------
     # Add your code here
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    print('Difficulty')
     #------------------------
 
 #---------------------------------------
