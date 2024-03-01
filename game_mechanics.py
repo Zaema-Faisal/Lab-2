@@ -27,7 +27,7 @@ def choose_category(categories):
     - str: The chosen category.
     """
     #------------------------
-    str1 = input("Choose a quiz category: /n 1. History Test /n 2. Maths Test /n 3. Social Sciences Test")
+    str1 = input("Choose a quiz category numbner: \n1. History Test \n2. Maths Test \n3. Social Sciences Test")
 
     def quiz_category():
         if str1 == 1:

@@ -15,11 +15,28 @@ def choose_difficulty():
     - str: Valid difficulty levels are ('easy', 'medium', 'hard').
     """
     #------------------------
-    # Add your code here
+    str1 = input("Choose the difficulty level: \n1. Easy \n2. Medium \n3. Hard")
+
+    if str1 == 1 or str1 == 2 or str1 == 3:
+        return True
+    else: 
+        return "Valid difficulty levels are ('easy', 'medium', 'hard')"
     #------------------------
     print('Difficulty')
     #------------------------
+str2 = int(input("Choose the difficulty level: \n1. Easy \n2. Medium \n3. Hard\n Choice:"))
 
+def levels():
+    if str2 == 1:
+        return "Easy"
+    elif str2 == 2:
+        return "Medium"
+    elif str2 == 3:
+        return "Hard"
+    else:
+        return "Valid difficulty levels are ('easy', 'medium', 'hard')"
+
+print(levels())
 #---------------------------------------
 
 def display_leaderboard(leaderboard):
