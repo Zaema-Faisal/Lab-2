@@ -1,7 +1,7 @@
 
 #---------------------------------------
 #  Game Mechanics
-#    Student A (team lead)
+#    Student Zaema (team lead)
 #---------------------------------------
 
 def welcome_message():
@@ -12,9 +12,7 @@ def welcome_message():
     Returns: None
     """
     #------------------------
-    # Add your code here
-    #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    print("Welcome to the Battle of Brains")
     #------------------------
 #---------------------------------------
     
@@ -29,9 +27,21 @@ def choose_category(categories):
     - str: The chosen category.
     """
     #------------------------
-    # Add your code here
+    str1 = input("Choose a quiz category: /n 1. History Test /n 2. Maths Test /n 3. Social Sciences Test")
+
+    def quiz_category():
+        if str1 == 1:
+            return "History Test"
+        elif str1 == 2:
+            return "Maths Test"
+        elif str1 == 3:
+            return "Social Sciences Test"
+        else:
+            return "Choose a correct option from 1-3"
+    
+    quiz_category()
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    
     #------------------------
 
 #---------------------------------------
@@ -47,9 +57,10 @@ def display_score(score, round_number):
     Returns: None
     """
     #------------------------
-    # Add your code here
+    print("Current Score: 100")
+    print("Level: 10")
     #------------------------
-    raise NotImplementedError("This function is not implemented yet.")
+    
     #------------------------
 
 #---------------------------------------
